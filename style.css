@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+/* https://www.gradient-animator.com/ */
+html{
+    background: linear-gradient(151deg, #52239f, #85eee1, #cc54ad, #5b79d9, #d1b0f0, #b4b0f0, #b0dff0);
+    background-size: 1400% 1400%;
+
+    -webkit-animation: backgroundAnimation 55s ease infinite;
+    -moz-animation: backgroundAnimation 55s ease infinite;
+    -o-animation: backgroundAnimation 55s ease infinite;
+    animation: backgroundAnimation 55s ease infinite;
+}
+
+@-webkit-keyframes backgroundAnimation {
+    0%{background-position:0% 17%}
+    50%{background-position:100% 84%}
+    100%{background-position:0% 17%}
+}
+@-moz-keyframes backgroundAnimation {
+    0%{background-position:0% 17%}
+    50%{background-position:100% 84%}
+    100%{background-position:0% 17%}
+}
+@-o-keyframes backgroundAnimation {
+    0%{background-position:0% 17%}
+    50%{background-position:100% 84%}
+    100%{background-position:0% 17%}
+}
+@keyframes backgroundAnimation {
+    0%{background-position:0% 17%}
+    50%{background-position:100% 84%}
+    100%{background-position:0% 17%}
+}
+
+html,
+body {
+     margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+
+.restartBtn{
+    font-family: Montserrat;
+    font-size: 25px;
+    width: 190px;
+    height: 50px;
+    border: 3px solid black;
+    cursor: pointer;
+    letter-spacing: 2px;
+    background: transparent;
+    text-transform: uppercase;
+}
+
+.restartBtn:hover{
+    border: 3px solid black;
+    cursor: pointer;
+    letter-spacing: 5px;
+    background: transparent;
+    transition: 400ms;
+}
+
